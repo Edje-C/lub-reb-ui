@@ -1,0 +1,21 @@
+.content {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.feed-item {
+  width: 20%;
+  margin: 0px 2.5%;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+/* .feed-item:nth-child(4n) {
+  margin-right: 0px;
+} */
+
+.feed-image {
+  width: 100%;
+}
