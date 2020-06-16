@@ -16,9 +16,13 @@
 }
 
 .feed-heading {
+  width: fit-content;
+  background: #000000;
+  color: #FFFFFF;
   font-size: 32px;
   font-weight: 700;
-  margin-bottom:20px;
+  margin: 0px auto 20px;
+  padding: 0px 10px;
   text-align: center;
 }
 
@@ -76,6 +80,11 @@
   font-weight: 500;
 }
 
-.feed-item:hover .feed-item-name {
-  text-decoration: underline;
+.feed-item:hover .feed-item-info {
+  background: #000000;
+  color: #FFFFFF;
+}
+
+.feed-item:hover .feed-item-price {
+  color: #DDDDDD;
 }

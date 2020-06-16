@@ -52,7 +52,7 @@ input {
   justify-content: space-between;
   align-items: center;
   margin: auto;
-  padding: 0px 30px;
+  padding: 0px 50px;
   position: relative;
 }
 
@@ -148,16 +148,23 @@ input {
 }
 
 .splash-heading {
+  background: #000000;
+  color: #FFFFFF;
   font-family: 'Playfair Display SC', serif;
   font-size: 58px;
   font-weight: 700;
-  margin-bottom: 5px;
+  margin-bottom: 20px;
+  padding: 0px 10px;
 }
 
 .splash-subheading {
+  width: fit-content;
+  background: #000000;
+  color: #FFFFFF;
   font-size: 32px;
   font-weight: 300;
   margin-bottom: 25px;
+  padding: 0px 10px;
 }
 
 .splash-button-container {
@@ -165,19 +172,14 @@ input {
 }
 
 .splash-button {
-  width: 150px;
   font-size: 18px;
-  font-weight: 500;
-  margin-right: 30px;
+  font-weight: 700;
+  margin-right: 50px;
   padding: 10px 0px;
-  border: 3px solid #000000;
-  text-align: center;
 }
 
 .splash-button:hover {
-  background-color: #4DC22D;
-  color: #FFFFFF;
-  border: 3px solid #4DC22D;
+  color: #4DC22D;
 }
 
 .promo-container {
@@ -217,11 +219,6 @@ input {
 
 .promo-subheading {
   font-size: 20px;
-}
-
-.promo-1 { 
-  background: #000000;
-  color: #FFFFFF;
 }
 
 .footer {
