@@ -74,7 +74,7 @@ input {
   padding: 10px 10px;
   margin: 0px 10px;
   text-align: center;
-  border-bottom: 2px solid #000000;
+  border-bottom: 2px solid transparent;
 }
 
 .header-menu-item:hover {
@@ -99,14 +99,14 @@ input {
   padding: 10px 20px;
   border-width: 2px 0px 2px 2px;
   border-style: solid;
-  border-color: white;
+  border-color: #FFFFFF;
 }
 
 .search-bar > button {
   background: #FFFFFF;
   border-width: 2px 2px 2px 0px;
   border-style: solid;
-  border-color: white;
+  border-color: #FFFFFF;
 }
 
 .left-menu {
@@ -122,6 +122,7 @@ input {
   min-height: 50vh;
   display: flex;
   flex-direction: column;
+  margin: auto;
   position: relative;
 }
 
@@ -175,7 +176,7 @@ input {
 
 .splash-button:hover {
   background-color: #4DC22D;
-  color: white;
+  color: #FFFFFF;
   border: 3px solid #4DC22D;
 }
 
