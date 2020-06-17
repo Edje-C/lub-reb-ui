@@ -62,11 +62,13 @@
 }
 
 .feed-item-color-icon {
-  color: #464646;
+  background: #FFFFFF;
+  color: #000000;
   font-size: 28px;
   position: absolute;
   top: -36px;
   right: 10px;
+  border-radius: 100%;
 }
 
 .feed-item-name {

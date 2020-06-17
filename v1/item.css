@@ -84,26 +84,20 @@
 }
 
 .option-label {
+  width: 100px;
   font-size: 18px;
   font-weight: 600;
   margin-right: 20px;
 }
 
 .option-dropdown {
+  width: 175px;
   font-weight: 600;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px;
   border: 2px solid #000000;
-}
-
-.option-dropdown-text {
-  width: 200px;
-}
-
-.option-dropdown-number {
-  width: 150px;
 }
 
 .color-option-container {
