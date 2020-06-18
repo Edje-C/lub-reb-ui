@@ -8,7 +8,7 @@
       rel="stylesheet"
     />
     <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
       rel="stylesheet"
     />
     <link href="index.css" rel="stylesheet" />
@@ -17,70 +17,84 @@
   </head>
   <body>
     <div class="container">
+      <div class="banner">
+        <div class="banner-content">
+          <p class="banner-text">Get 10% off your entire first purchase!</p>
+          <p class="banner-text">Use code '<span class="bold">REBEL</span>'</p>
+        </div>
+      </div>
       <div class="header">
         <div class="header-content">
-          <a class="name" href="index.html">Luxurious Rebel</a>
-          <div class="header-menu">
+          <div class="header-menu-top">
+            <div class="search-bar">
+              <button><span class="material-icons-outlined">search</span></button>
+              <input type="text" placeholder="Search" />
+            </div>
+            <a class="name" href="index.html">Luxurious Rebel</a>
+            <div class="left-menu">
+              <button class="left-menu-item">
+                Login
+                <span class="material-icons-outlined">person</span>
+              </button>
+              <button class="left-menu-item">
+                Cart
+                <span class="material-icons-outlined">shopping_bag</span>
+              </button>
+            </div>
+          </div>
+          <div class="header-menu-bottom">
             <a class="header-menu-item" href="feed.html">Clothing</a>
             <a class="header-menu-item" href="feed.html">Accessories</a>
+            <a class="header-menu-item" href="feed.html">About Us</a>
           </div> 
-          <div class="search-bar">
-            <input type="text" placeholder="Search" />
-            <button><span class="material-icons">search</span></button>
-          </div>
-          <div class="left-menu">
-            <button class="left-menu-icon">
-              <span class="material-icons">person</span>
-            </button>
-            <button class="left-menu-icon">
-              <span class="material-icons">shopping_bag</span>
-            </button>
-          </div>
         </div>
       </div>
       <div class="content">
-        <p class="breadcrumb">Home / Items / <span class="bold">Blazer Dress</span></p>
         <div class="item-info-container">
           <div class="image-container">
+            <img class="main-image" src="../assets/item-main-4.jpg" />
             <div class="thumbnail-container">
               <img class="thumbnail-preview" src="../assets/item-thumb-4.jpg" />
               <img class="thumbnail-preview" src="../assets/item-thumb-4-v2.jpg" />
               <img class="thumbnail-preview" src="../assets/item-thumb-4-v3.jpg" />
               <img class="thumbnail-preview" src="../assets/item-thumb-4-v4.jpg" />
             </div>
-            <img class="main-image" src="../assets/item-main-4.jpg" />
           </div>
           <div class="item-info">
-            <p class="item-name">Rebel Cat Eye</p>
-            <p class="item-description">Neon Studded Cat Eye Sunglasses</p>
-            <p class="item-price">$25.00</p>
-            <div class="option-container">
-              <p class="option-label">Color:</p>
-              <div class="color-option-container">
-                <button class="color-option color-option-green color-option-selected"></button>
-                <button class="color-option color-option-pink"></button>
-                <button class="color-option color-option-red"></button>
-                <button class="color-option color-option-yellow"></button>
+            <div class="item-details-container">
+              <p class="item-name">Rebel Cat Eye</p>
+              <p class="item-description">Neon Studded Cat Eye Sunglasses</p>
+              <p class="item-price">$25.00</p>
+              <button class="add-to-cart">Add To Card</button>
+              <a class="detail-link">Shipping and Returns</a>
+              <a class="detail-link">Size Chart</a>
+            </div>
+            <div class="item-details-container">
+              <div class="option-container">
+                <p class="option-label">Color:</p>
+                <div class="color-option-container">
+                  <button class="color-option color-option-green color-option-selected"></button>
+                  <button class="color-option color-option-pink"></button>
+                  <button class="color-option color-option-red"></button>
+                  <button class="color-option color-option-yellow"></button>
+                </div>
+              </div>
+              <div class="option-container">
+                <p class="option-label">Size:</p>
+                <button class="option-dropdown option-dropdown-text">
+                  Small
+                  <span class="material-icons-outlined">arrow_drop_down</span>
+                </button>
+              </div>
+              <div class="option-container">
+                <p class="option-label">Quantity:</p>
+                <button class="option-dropdown option-dropdown-number">
+                  <span class="material-icons-outlined">add</span>
+                  1
+                  <span class="material-icons-outlined">remove</span>
+                </button>
               </div>
             </div>
-            <div class="option-container">
-              <p class="option-label">Size:</p>
-              <button class="option-dropdown option-dropdown-text">
-                Small
-                <span class="material-icons">arrow_drop_down</span>
-              </button>
-            </div>
-            <div class="option-container">
-              <p class="option-label">Quantity:</p>
-              <button class="option-dropdown option-dropdown-number">
-                <span class="material-icons">arrow_drop_up</span>
-                1
-                <span class="material-icons">arrow_drop_down</span>
-              </button>
-            </div>
-            <button class="add-to-cart">Add To Card</button>
-            <a class="detail-link">Shipping and Returns</a>
-            <a class="detail-link">Size Chart</a>
           </div>
         </div>
       </div>
@@ -111,7 +125,7 @@
         </div>
         <a href="../index.html">
           <button class="back">
-            <span class="material-icons">keyboard_backspace</span>
+            <span class="material-icons-outlined">keyboard_backspace</span>
             demos
           </button>
         </a>
