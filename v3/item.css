@@ -21,6 +21,26 @@
 
 .main-image-container {
   width: 50%;
+  position: relative;
+}
+
+.slideshow-buttons-container {
+  width: 100%;
+  height: fit-content;
+  display: none;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+
+.slideshow-buttons-container .material-icons-outlined {
+  background: rgba(255, 255, 255, 0.5);
+  margin: 5px;
+  padding: 5px;
+  border-radius: 100%;
 }
 
 .main-image {
@@ -176,6 +196,10 @@
   .main-image-container {
     width: 100%;
   } 
+
+  .slideshow-buttons-container {
+    display: flex;
+  }
 
   .thumbnail-container {
     display: none;
