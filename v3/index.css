@@ -120,6 +120,10 @@ input {
   margin: 0px 20px;
 }
 
+.left-menu-item.hamburger {
+  display: none;
+}
+
 .left-menu-item:hover {
   color: #464646;
 }
@@ -327,4 +331,136 @@ input {
   right: 30px;
   bottom: 30px;
   border: 1px solid #000000;
+}
+
+@media only screen and (max-width: 600px) {
+  .banner-content {
+    font-size: 10px;
+    justify-content: space-evenly;
+  }
+
+  .header {
+    height: auto;
+  }
+
+  .header-content {
+    padding: 0px 20px 10px;
+  }
+
+  .header-menu-top {
+    margin: 0px;
+  }
+
+  .left-menu {
+    display: none;
+  }
+
+  .left-menu-item {
+    margin: 0px;
+  }
+
+  .left-menu-item .material-icons-outlined {
+    margin: 0px;
+  }
+
+  .left-menu-item.hamburger {
+    display: flex;
+  }
+
+  .search-bar {
+    display: none;
+  }
+
+  .name {
+    font-size: 22px;
+  }
+
+  .search-bar {
+    display: none;
+  }
+
+  .header-menu-bottom {
+    display: none;
+  }
+
+  .spash-image {
+    height: 80vh;
+    object-position: 60%;
+  }
+
+  .splash-content {
+    width: 60vw;
+    padding: 30px;
+  }
+
+  .splash-heading {
+    font-size: 26px;
+  }
+
+  .splash-subheading {
+    font-size: 14px;
+  }
+
+  .splash-button-container {
+    flex-direction: column;
+  }
+
+  .splash-button {
+    width: 100%;
+    max-width: 150px;
+    font-size: 14px;
+    margin: 0px 0px 10px;
+    padding: 5px 0px;
+  }
+
+  .promo {
+    height: auto;
+    margin: 0px;
+    padding: 50px 20px;
+  }
+
+  .promo-heading {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .promo-subheading {
+    font-size: 14px;
+  }
+
+  .footer {
+    padding: 75px 40px;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    margin-bottom: 0px;
+  }
+
+  .footer-section {
+    margin-bottom: 50px;
+  }
+
+  .footer-section-header {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .footer-section-subheader, .footer-section-item {
+    font-size: 14px;
+  }
+
+  .footer-input {
+    width: 90%;
+    padding: 10px 20px;
+  }
+
+  .footer-copyright {
+    font-size: 10px;
+    text-align: center;
+  }
+
+  .footer-button {
+    font-size: inherit;
+  }
 }
